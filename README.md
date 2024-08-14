@@ -255,7 +255,7 @@ This message shows that your installation appears to be working correctly.
 ### Clone this repository and move to example folder
 
 ```
-git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero
+git clone https://github.com/Rohansaini1512/Basic_Docker.git
 cd  examples
 ```
 
@@ -267,7 +267,7 @@ docker login
 
 ```
 Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
-Username: abhishekf5
+Username: rohansaini1512
 Password:
 WARNING! Your password will be stored unencrypted in /home/ubuntu/.docker/config.json.
 Configure a credential helper to remove this warning. See
@@ -281,7 +281,7 @@ Login Succeeded
 You need to change the username accoringly in the below command
 
 ```
-docker build -t abhishekf5/my-first-docker-image:latest .
+docker build -t rohansaini1512/my-first-docker-image:latest .
 ```
 
 Output of the above command
@@ -332,7 +332,7 @@ hello-world                        latest    feb5d9fea6a5   16 months ago    13.
 ### Run your First Docker Container
 
 ```
-docker run -it abhishekf5/my-first-docker-image
+docker run -it rohansaini1512/my-first-docker-image
 ```
 
 Output
@@ -351,7 +351,7 @@ Output
 
 ```
 Using default tag: latest
-The push refers to repository [docker.io/abhishekf5/my-first-docker-image]
+The push refers to repository [docker.io/rohansaini1512/my-first-docker-image]
 896818320e80: Pushed
 b8088c305a52: Pushed
 69dd4ccec1a0: Pushed
